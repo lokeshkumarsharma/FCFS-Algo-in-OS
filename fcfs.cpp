@@ -3,7 +3,7 @@ int n,i,j;
 float avgtat=0,avgwt=0;
 struct fcfs
 {
-int at,st,ct,tat,wt;
+int at,st,ct,tat,wt;      //'st' stands for schedule time which means burst time
 char pname[20];
 float ntat;
 }temp;
